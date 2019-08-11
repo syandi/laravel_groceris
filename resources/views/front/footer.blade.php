@@ -35,7 +35,7 @@
                         <a href="tel:+089638889862"><i class="fa fa-phone"></i>089638889862</a>
                     </li>
                     <li>
-                        <a href="mailto:andihoerudin24@gmail.com"><i class="fa fa-envelope"></i>andihoerudin24@gmail.com</a>
+                        <a href="mailto:andihoerudin24@gmail.com"><i class="fa fa-envelope"></i>sandianugrah96@gmail.com</a>
                      </li>
                  </ul>
 
