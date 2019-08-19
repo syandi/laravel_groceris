@@ -75,9 +75,11 @@
                         <strong>{{ session('gagal') }}</strong>
                  </div>
                   @endif
-                   <form method="POST" action="{{ route('login') }}">
-                        @csrf
+                  <form method="POST" action="{{ route('login') }}">
+                   @csrf
                       <div class="form-group">
+                      <button type="button" class="btn btn-outline-primary btn-sm align=right">Primary</button>
+
                       <input id="email" type="email" placeholder="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
                             @if ($errors->has('email'))
                             <span class="invalid-feedback" role="alert">
@@ -98,11 +100,12 @@
                         <button type="submit" class="btn btn-primary">
                             Login
                         </button>
+                
+
                 </form>
             </div>
         </div>
     </div>
-
-
+    
 </body>
 </html>
