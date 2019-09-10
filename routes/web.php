@@ -29,6 +29,7 @@ Route::get('/enter', 'indexController@login')->name('enter');
 Route::post('/enter','indexController@loginpost')->name('loginpost');
 Route::get('/register','indexController@register')->name('register');
 Route::post('/register','indexController@postregister')->name('postregister');
+Route::get('/admin','indexController@about')->name('admin');
 //route for index login register for user
 //route for transaksi history
 Route::get('/transaksi/history','TransaksiController@index')->name('transaksihistory')->middleware('auth');

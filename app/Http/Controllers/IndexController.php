@@ -36,6 +36,11 @@ class IndexController extends Controller
         return view('enter.register');
     }
 
+    public function admin()
+    {
+        return view('enter.register');
+    }
+
     public function postregister(Request $request)
     {
         $this->validate($request,[

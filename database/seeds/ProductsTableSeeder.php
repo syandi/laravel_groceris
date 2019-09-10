@@ -13,24 +13,24 @@ class ProductsTableSeeder extends Seeder
     {
         DB::table('products')->insert([
           [
-              'id_categories'=>5,
+              'id_categories'=>1,
               'name_product'=>'nama product satu',
-              'price'=>'price satu',
+              'price'=>'0',
               'foto'=>'foto satu',
               'stock'=>12,
           ],
           [
-            'id_categories'=>5,
+            'id_categories'=>2,
             'name_product'=>'nama product dua',
-            'price'=>'price dua',
+            'price'=>'0',
             'foto'=>'foto dua',
             'stock'=>12,
           ],
           [
 
-            'id_categories'=>7,
+            'id_categories'=>3,
             'name_product'=>'nama product tiga',
-            'price'=>'price tiga',
+            'price'=>'0',
             'foto'=>'foto tiga',
              'stock'=>12,
         ],

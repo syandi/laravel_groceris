@@ -38,4 +38,7 @@ class AdminController extends Controller
           return redirect()->route('Admin.index');
      }
 
+     public function create(){
+          return view('coba.register');
+     }
 }

@@ -43,6 +43,9 @@
                             <a href="{{ route('register') }}" class="nav-link">Register</a>
                         </li>
                         <li class="nav-item">
+                            <a href="{{ route('admin') }}" class="nav-link">Admin</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{ route('enter') }}" class="nav-link">Login</a>
                         </li>
                         <li class="nav-item dropdown">

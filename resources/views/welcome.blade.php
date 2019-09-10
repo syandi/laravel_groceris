@@ -5,7 +5,7 @@
         <div class="jumbotron jumbotron-video text-center bg-dark mb-0 rounded-0">
             <video width="100%" preload="auto" loop autoplay muted>
                 <source src='{{asset('assets/media/explore.mp4')}}' type='video/mp4' />
-                <source src='{{asset('assets/media/explore.webm')}}' type='video/webm' />
+                <!-- <source src='{{asset('assets/media/explore.webm')}}' type='video/webm' /> -->
             </video>
             <div class="container">
                 <h1 class="pt-5">
@@ -13,7 +13,7 @@
                     groceries to us.
                 </h1>
                 <p class="lead">
-                    Always Fresh Everyday.
+                    Tersedia bendino.
                 </p>
 
                 <div class="row">
@@ -29,7 +29,7 @@
                                     Buy
                                 </h4>
                                 <p class="card-text">
-                                    Simply click-to-buy on the product you want and submit your order when youre done
+                                    silahkan beli disini
                                 </p>
 
                             </div>
